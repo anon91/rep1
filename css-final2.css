@@ -1,0 +1,85 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:500px;
+    height:300px;
+    font-size:16px;
+    font-family:"Tahoma", sans-serif;
+    line-height:20px;
+    color:black;
+    background:#eeeeee;
+}
+.slider {
+	position:relative;
+	padding-top:24px;
+	padding-left:20px;
+}
+.text {
+	_margin-left:25px;
+	_margin-top:45px;
+	width:275px;
+}
+.text h1 {
+	line-height:25px;
+	font-size:25px;
+}
+.text p {
+	_font-size: 20px;
+	_line-height:27px;
+}
+.text .know-more {
+	background:#fb565a;
+	display:block;
+	width:200px;
+	text-decoration:none;
+	color:#ffffff;
+	text-transform:uppercase;
+	_border:5px solid #fb565a;
+	border-radius:5px;
+	text-align:center;
+	_font-size:20px;
+	_font-weight:bold;
+	padding:10px 0 10px;
+	margin-top:25px;
+	font-size:15px;
+}
+.image {
+	position:absolute;
+	top:82px;
+	right:20px;
+	_transform:scale(1.5);
+}
+.link-common a {
+	border:5px solid #666666;
+	background-color:#666666;
+	width:5px;
+	height:5px;
+	display:inline-block;
+	border-radius:50%;
+	margin-right:5px;
+	margin-top:29px;	
+}
+}
+.link-common {
+	margin-left:205px;
+}
+.link-common .link {
+    width:5px;
+    height:5px;
+    border:5px solid #666666;
+    border-radius:50%;
+    background:#ffffff;
+}
+_.link-common a:nth-child(1) {
+	background:none;
+}
+/* 
+Адрес фоновой картинки слайда:
+/assets/ifmo/slide-bg.png
+Используемые цвета:
+#666666
+#ffffff
+#fb565a
+*/
